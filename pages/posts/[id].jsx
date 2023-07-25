@@ -21,7 +21,7 @@ export default function Post({ postData }) {
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       <Link className={layoutStyles.backToHome} href="/">
-        back
+        back to home page
       </Link>
     </Layout>
   )
